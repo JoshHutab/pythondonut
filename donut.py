@@ -8,9 +8,9 @@ screen_height = 33
 
 # Torus parameters
 R1 = 5       # Major radius
-R2 = 3    # Minor radius
-K1 = 16     # Distance from viewer to torus
-K2 = 25      # Scaling factor for projection
+R2 = 2.98    # Minor radius
+K1 = 18     # Distance from viewer to torus
+K2 = 27      # Scaling factor for projection
 aspect_ratio = 2  # Aspect ratio adjustment
 
 # Light direction (normalized)
@@ -96,8 +96,8 @@ def main():
             print(''.join(row))
 
         # Update angles
-        A += 0.06
-        B += 0.02
+        A += 0.04
+        B += 0.01
         time.sleep(0.001)
 
 if __name__ == "__main__":
